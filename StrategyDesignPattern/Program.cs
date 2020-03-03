@@ -14,8 +14,12 @@ namespace StrategyDesignPattern
         {
             var orderCarlos = new OrderCarlosVancouver();
             orderCarlos.SetProducts();
+            Console.WriteLine("- List of products");
             orderCarlos.GetProductList();
+            Console.WriteLine("- Total");
             orderCarlos.GetTotal();
+            Console.WriteLine("- Place");
+            orderCarlos.GetLocation();
 
             Thread.Sleep(100000);
 
